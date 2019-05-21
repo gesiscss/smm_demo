@@ -1,0 +1,4 @@
+-e ../smm_wrapper 
+pandas
+jupyter
+nbstripout

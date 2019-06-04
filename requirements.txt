@@ -3,6 +3,5 @@
 pandas
 jupyter
 nbstripout
-bokeh
 plotly
 qgrid

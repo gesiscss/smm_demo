@@ -1,5 +1,5 @@
--e git+git@github.com:gesiscss/smm_wrapper.git#egg=smm_wrapper
-#-e ../smm_wrapper 
+#-e git+git@github.com:gesiscss/smm_wrapper.git#egg=smm_wrapper
+-e ../smm_wrapper 
 pandas
 jupyter
 nbstripout

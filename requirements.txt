@@ -3,6 +3,5 @@ smm_wrapper
 pandas
 jupyter
 nbstripout
-bokeh
 plotly
 qgrid

@@ -19,7 +19,13 @@ tweets_by = as.data.frame(fromJSON(content(GET(call_tweets), "text"), flatten = 
 replies_to = as.data.frame(fromJSON(content(GET(call_replies), "text"), flatten = TRUE))
 merged = merge(tweets_by, replies_to, by='labels')
 
-View(merged)
-with(merged,plot(labels, values.x, type="h", main='The number of aggregated tweets for a politician', xlab='Date', ylab='Number of tweets'))
-lines(merged$labels, merged$values.x, col='red')
-lines(merged$labels, merged$values.y, col='blue')
+#plotting
+install.packages("ggplot2")
+require("ggplot2")
+ggplot(data = merged, mapping = aes(labels)) +
+  geom_line(aes(y = values.x, color="Tweets", group=response_type.x)) +
+  geom_line(aes(y = values.y, color="Replies", group=response_type.y)) +
+  labs(title = "The number of aggregated tweets for a politician", x = "Date", y = "N") +
+  theme(axis.text.x = element_text(colour = "grey20", size = 9, angle = 60, hjust = 0.5, vjust = 0.5),
+        axis.text.y = element_text(colour = "grey20", size = 9), legend.title = element_blank())
+

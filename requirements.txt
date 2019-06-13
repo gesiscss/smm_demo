@@ -1,6 +1,6 @@
 smm_wrapper
 #-e ../smm_wrapper 
-#-e ../wikiwho_wrapper 
+wikiwho_wrapper 
 pandas
 jupyter
 nbstripout

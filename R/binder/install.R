@@ -1,0 +1,5 @@
+install.packages("httr")
+install.packages("jsonlite")
+install.packages("ggplot2")
+install.packages('RJSplot')
+install.packages('dplyr')

@@ -29,5 +29,15 @@ install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
 IRkernel::installspec(user = TRUE)
 ```
 
+6. Install other dependencies:
+
+```
+install.packages("httr")
+install.packages("jsonlite")
+install.packages("ggplot2")
+install.packages('RJSplot')
+install.packages('dplyr')
+```
+
 Source: http://www.storybench.org/install-r-jupyter-notebook/
 Troubleshooting: https://github.com/ramnathv/rCharts/issues/718

@@ -6,4 +6,4 @@ jupyter nbextension enable --py --sys-prefix qgrid
 #jupyter contrib nbextension install --user
 #jupyter nbextension enable init_cell/main
 jupyter nbextension install ../default_cell  --user
-jupyter nbextension enable default_cell  --user
+jupyter nbextension enable default_cell/main  --user

@@ -1,6 +1,9 @@
 #nbstripout --install
 jupyter nbextension enable --py --sys-prefix qgrid
 #jupyter trust ../url_trick.ipynb
+#jupyter trust ../url_trick2.ipynb
 #jupyter trust url_trick.ipynb
 #jupyter contrib nbextension install --user
 #jupyter nbextension enable init_cell/main
+jupyter nbextension install default_cell  --user
+jupyter nbextension enable default_cell  --user

@@ -5,5 +5,7 @@ jupyter nbextension enable --py --sys-prefix qgrid
 #jupyter trust url_trick.ipynb
 #jupyter contrib nbextension install --user
 #jupyter nbextension enable init_cell/main
+
+# comment the following to enable parameter inserting
 jupyter nbextension install default_cell  --user
 jupyter nbextension enable default_cell/main  --user

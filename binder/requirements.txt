@@ -7,3 +7,4 @@ jupyter
 nbstripout
 plotly
 qgrid
+jupyter_contrib_nbextensions

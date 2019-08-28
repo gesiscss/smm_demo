@@ -5,4 +5,4 @@ install.packages('RJSplot')
 install.packages('dplyr')
 #install.packages('plotly')
 install.packages('lubridate')
-
+install.packages('forcats')

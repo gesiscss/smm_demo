@@ -1,4 +1,4 @@
-smm_wrapper == 1.3
+smm_wrapper == 1.3.1
 #-e ../smm_wrapper 
 wikiwho_wrapper 
 wikipedia

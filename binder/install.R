@@ -1,6 +1,7 @@
 install.packages("httr")
 install.packages("jsonlite")
-install.packages("ggplot2")
+#install.packages("ggplot2")
+install.packages("ggplot2",repos="https://cloud.r-project.org/")
 install.packages('RJSplot')
 install.packages('dplyr')
 #install.packages('plotly')
